@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GYM" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+
+    <style name="AppTheme1" parent="@style/Theme.Material3.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+
+    <style name="TextStyleBNV" parent="@style/TextAppearance.AppCompat.Caption" tools:override="true">
+        <item name="android:textSize">5sp</item>
+        <item name="android:padding">0dp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="startIconTint">@color/gray</item>
+        <item name="endIconTint">@color/gray</item>
+        <item name="placeholderTextColor">@color/gray</item>
+        <item name="colorControlActivated">@color/pink</item>
+        <item name="colorPrimary">@color/pink</item>
+        <item name="android:colorActivatedHighlight">@color/pink</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:color">@color/gray</item>
+        <item name="hintTextColor">@color/pink</item>
+
+    </style>
+
+</resources>
