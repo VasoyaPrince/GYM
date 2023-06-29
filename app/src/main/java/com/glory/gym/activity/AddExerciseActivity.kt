@@ -23,7 +23,7 @@ import retrofit2.Response
 
 class AddExerciseActivity : AppCompatActivity() {
     lateinit var binding: ActivityAddExerciseBinding
-    lateinit var retrofitAPIClient: RetrofitAPIClient
+    private lateinit var retrofitAPIClient: RetrofitAPIClient
     lateinit var adapter: AllExercisesAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
